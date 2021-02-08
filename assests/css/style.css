@@ -1,0 +1,120 @@
+.navbar-dark {
+    background-color: #272727; 
+    border-color: white; 
+    padding: 10px 0px;
+}
+
+#carouselExampleControls {
+    margin-top: 50px;
+}
+.carousel-item-row {
+    margin-top: 170px !important;
+}
+
+.carousel-item-row > h4 {
+    font-size: 22px; 
+    opacity: 0.5;
+}
+
+.carousel-item-row > h2 {
+    font-size: 50px; 
+    padding: 0px 0px 15px 0px;
+}
+
+.carousel-item-row > p {
+    font-size: medium; 
+    opacity: 0.8;
+}
+
+#carousel-buttons {
+    padding-top: 10px;
+}
+
+#carousel-buttons > .btn > a, .modal-footer > button > a {
+    text-decoration: none; 
+    color: white;
+}
+
+#carousel-buttons > button {
+    padding: 20px;
+}
+
+.roboto-font {
+    font-family: 'Roboto Slab', serif;
+}
+
+#about-section {
+    background-color: #272727; 
+    color: white;
+}
+
+.welcome-header {
+    padding-bottom: 50px;
+}
+
+.products-container > div {
+    margin-top: 20px;
+}
+
+.products-container > div > h2 {
+    text-transform: uppercase; 
+    padding: 15px 15px;
+}
+
+#product_row > .col-sm, .card {
+    padding: 0px 0px 15px 0px;
+}
+
+#product_row > .col-sm > .card {
+    width: 100%;
+    border-color: transparent;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body > a {
+    padding: 15px;
+}
+
+.nav-link {
+    margin: 0px 10px 0px 10px;
+}
+
+footer {
+    background-color: #272727; 
+    color: white;
+}
+
+footer > div {
+    padding: 20px 0px 20px 0px;
+}
+
+footer > div > p {
+    margin-bottom: 0px;
+}
+
+
+#firstName, #lastName, #company, #inputEmail, #inputPhone{
+    background-color: transparent;
+    color: #272727;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #272727 1px;
+    padding: 3px 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#messagebox{
+    background-color: transparent;
+    color: #272727;
+    outline: none;
+    outline-style: none;
+    border: solid #272727 1px;
+    padding: 3px 10px;
+    font-family: 'Roboto Slab', serif;
+}
