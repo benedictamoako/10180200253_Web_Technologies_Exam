@@ -1,9 +1,15 @@
+/* navbar styling */
 .navbar-dark {
     background-color: #272727; 
     border-color: white; 
     padding: 10px 0px;
 }
 
+.nav-link {
+    margin: 0px 10px 0px 10px;
+}
+
+/* carousel */
 #carouselExampleControls {
     margin-top: 50px;
 }
@@ -30,7 +36,9 @@
     padding-top: 10px;
 }
 
-#carousel-buttons > .btn > a, .modal-footer > button > a {
+#carousel-buttons > .btn > a, 
+.modal-footer > button > a, 
+#complaintsBtns > button > a {
     text-decoration: none; 
     color: white;
 }
@@ -39,6 +47,7 @@
     padding: 20px;
 }
 
+/* description section */
 .roboto-font {
     font-family: 'Roboto Slab', serif;
 }
@@ -52,7 +61,8 @@
     padding-bottom: 50px;
 }
 
-.products-container > div {
+/* products section */
+.products-container > div, form {
     margin-top: 20px;
 }
 
@@ -76,12 +86,11 @@
 
 .card-body > a {
     padding: 15px;
+    font-family: 'Roboto Slab', serif;
 }
 
-.nav-link {
-    margin: 0px 10px 0px 10px;
-}
 
+/* footer */
 footer {
     background-color: #272727; 
     color: white;
@@ -95,6 +104,50 @@ footer > div > p {
     margin-bottom: 0px;
 }
 
+/* modals */
+.modal-body > .row > div > h1 {
+    font-size: 28px;
+}
+
+.modal-body > .row > div > p {
+    font-size: 12px;
+}
+
+.modal-content > .modal-footer {
+    background-color: #272727;
+}
+
+.modal-footer {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* complaints page */
+#complaints-image {
+    margin-top: 200px; 
+    padding-bottom: 85px;
+}
+
+#complaints-image-head {
+    margin-top: 100px;
+}
+
+#complaints-image-head > div > h1 {
+    font-size: 30px;
+}
+
+#messageboxDiv {
+    padding-bottom: 5px;
+}
+
+#complaintsBtns {
+    margin-top: 20px; 
+    text-align: center;
+}
+
+/* form section */
+#form-div {
+    margin-top: 80px;
+}
 
 #firstName, #lastName, #company, #inputEmail, #inputPhone{
     background-color: transparent;
